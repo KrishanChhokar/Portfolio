@@ -9,6 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 [src="assets/img/profile-img.jpg"]{
   height: 450px;
   width: 400px;
@@ -405,7 +406,7 @@ section {
   margin-bottom: 0;
 }
 #name{
-font-family:'Lobster';
+  font-family: 'Lobster', cursive;
 }
 /*--------------------------------------------------------------
 # About
