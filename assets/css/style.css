@@ -11,8 +11,11 @@
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 [src="assets/img/profile-img.jpg"]{
-  height: 450px;
-  width: 400px;
+    width: 77%;
+    border-radius: 54%;
+    height: 80%;
+    margin: 0px 25px;
+    object-fit: fill;
   
 }
 body {
@@ -283,11 +286,13 @@ h6 {
   background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
+  display: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width:300px) and (min-width: 901px) {
   #hero {
-    padding-left: 160px;
+    display: block;
+    /* padding-left: 160px; */
   }
 }
 
